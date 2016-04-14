@@ -177,8 +177,7 @@ Hacker by nature, analytically minded by trade. Solving complex problems with el
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{Personal Projects}
-\runsubsection{Professional}
-\descript{}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
 \item Developed a personal dashboard to track numerous data points using Python and Tornado. 
