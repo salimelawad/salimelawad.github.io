@@ -17,33 +17,6 @@
 % operating system or comment the line out to use the default font.
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% 
-% TODO:
-% 1. Integrate biber/bibtex for article citation under publications.
-% 2. Figure out a smoother way for the document to flow onto the next page.
-% 3. Add styling information for a "Projects/Hacks" section.
-% 4. Add location/address information
-% 5. Merge OpenFont and MacFonts as a single sty with options.
-% 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% CHANGELOG:
-% v1.1:
-% 1. Fixed several compilation bugs with \renewcommand
-% 2. Got Open-source fonts (Windows/Linux support)
-% 3. Added Last Updated
-% 4. Move Title styling into .sty
-% 5. Commented .sty file.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 
 \documentclass[]{deedy-resume}
 \usepackage{fancyhdr}
@@ -90,7 +63,7 @@
 \location{Spring 2017}
 \sectionsep
 
-\subsection{University of North Texas}
+\subsection{University of N. Texas}
 \descript{BS in Information Systems}
 \location{Dec 2011 | Denton, TX \\
 Overall GPA: 3.5 / 4.0 \\
@@ -132,12 +105,15 @@ LinkedIn://  \href{https://www.linkedin.com/in/aglove2189}{\bf aglove2189}
 %     SKILLS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Skills}
-\location{Data Analytics \\
+\section{Technical Skills}
+\location{Analytics \\
+Statistics \\
+Machine Learning \\
 Visualization \& Reporting \\
 Python \\
 Data Management \\
-Database \& Data Warehouse Design \\
+Database Design \\
+Data Warehouse Design \\
 ETL \\
 Enterprise Architecture \\
 Business Intelligence}
@@ -146,23 +122,20 @@ Business Intelligence}
 \location{Adept}
 SQL \textbullet{}   SSRS \textbullet{} SSAS (Tabular) \\
 Spotfire \textbullet{} SQL Server \textbullet{} Oracle \\
+Python \textbullet{} Jupyter \textbullet{} Pandas \\
 \location{Competent}
-Python \textbullet{} NumPy \textbullet{} SciPy \textbullet{} Pandas \\
-IPython \textbullet{} Spyder \textbullet{} HTML \& CSS \\
-VBA \textbullet{} Java \textbullet{} Windows \& Unix \\
+HTML \& CSS \textbullet{} VBA \textbullet{} Java \\
 \location{Familiar}
-SSIS \textbullet{} R \textbullet{} Octave \\
-JavaScript \textbullet{} JSP \textbullet{} VB \\
-\sectionsep
+R \textbullet{} SAS \textbullet{} JavaScript \\
  
 \section{Ongoing Education}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item NSA 4012 Security \\ Certification – 2011
-\item Andrew Ng’s Machine Learning course – 2013
+\item Brown University’s Exploring \\ Neural Data course – 2015
+\item ITIL Foundation \\ Certification – 2014
 \item Rice University’s Interactive Python course – 2014
 \item John Hopkin’s Computing for Data Analysis course – 2014
-\item Brown University’s Exploring \\ Neural Data course – 2015
+\item Andrew Ng’s Machine Learning course – 2013
 \end{tightemize}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -180,50 +153,40 @@ JavaScript \textbullet{} JSP \textbullet{} VB \\
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{About}
-Hacker by nature, analytical minded by trade. I enjoy solving complex problems with elegant and simple solutions. My favorite problems to solve revolve around data science subject matters (collecting, collating, and analyzing data, statistics, and machine learning).
+Hacker by nature, analytically minded by trade. Solving complex problems with elegant and simple solutions is always the desired outcome. Solid capabilities in statistical analysis, data engineering, reporting, and developing data products. Proven track record for delivering projects early with limited resources. Translates dry analysis and technical solutions into insightful dialogue.
  
 \section{Experience}
 \runsubsection{Oxy}
-\descript{| IT – Data Analyltics \& Reporting}
-\location{July 2011 – Current | Houston, TX}
+\descript{| IT – Data Analytics \& Reporting}
+\location{January 2012 – Current | Houston, TX}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
-\item Developing and maintaining reporting solutions (SSRS, Spotfire, Access, Excel).
-\item Streamlining processes for capturing, processing, cleaning, and reporting on data (Oracle, SQL Server, ETL, SSAS/SSIS, Python, and more).
-\item Supporting drilling and well servicing applications.
-\item Supporting and maintaining data stores and data warehouses.
-\item Developing and maintaining data cubes (SSAS Tabular).
-\item Creating dashboards for reporting, analysis, and performance improvements (Spotfire, Sharepoint).
-%\item Advising on solutions to best analyze and explore data for actionable results
-%\item Training engineers, techs, managers, and executives on multiple tools, data systems, and how to build data solutions (SSRS, Spotfire, SSAS, ODS, SQL)
-%\item Maintaining the Anaconda package for scientific computing (Python + scientific libraries, IPython, Spyder IDE)
+
+\item Developed a Monte Carlo simulation to calculate the optimal number of rigs in a field needed. This simulation was ran in every domestic field and a cost savings of over \$500,000 dollars was realized.
+\item Introduced SSAS cubes to Oxy by designing and building cubes centered around operational and well servicing data. Data retrieval and query times reduced thousandfold.
+\item Developed and deployed over 350 SSRS and Spotfire reports to production over the course of 2 years.
+\item Implemented the first graph database at Oxy for visualizing relationships between key data points. Visualization of complex data flows simplified the understanding of how data moves throughout the organization's systems.
+\item Developed a KPI monitoring process for major IT projects. Multiple systems across the organization were pulled and merged to create an automated monthly report. This process increased transparency of information and simplified its delivery to key stakeholders.
+\item Completely automated the process of delivering partner reports. This eliminated 80\% of an employee's workload. They were later promoted to a new position within the organization.
+
 \end{tightemize}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     RESEARCH
+%     PROJECTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Notable Projects}
+\section{Personal Projects}
 \runsubsection{Professional}
 \descript{}
 \begin{tightemize}
-\item Developed a Monte Carlo simulation with automatic distribution fitting on multiple data inputs to calculate the optimal number of rigs in a field needed.
-\item Introduced tabular cubes at Oxy by building multiple cubes centered around operational and well servicing data. Drastic improvement in data retrieval and query times (>1,000x).
-\item Developed and deployed over 350 SSRS and Spotfire reports to production over the course of 2 years.
-\item Implemented first graph database at Oxy for visualizing relationships between key data points  across the organization.
-\item Developed a KPI monitoring process for major IT projects throughout the company to notify stakeholders of progress. Multiple systems across the organization were pulled and merged to create an automated monthly report.
-%\item Created and structured how Oxy utilizes and creates online training for applications.
-\end{tightemize}
-\sectionsep
- 
-\runsubsection{Personal}
-\descript{}
-\begin{tightemize}
-\item Built an email server from scratch using: AWS EC2 + Red Hat + iRedMail.
-\item Developed a Google Chrome extension that displays a random image and quote when opening a new tab.
-\item Wrote a simple web scraper in Python for pulling US weather data.
+
+\item Developed a personal dashboard to track numerous data points using Python and Tornado. 
+\item Developed a traffic logging system that sends an email once traffic hits a certain threshold.
+\item Wrote a web scraper for pulling any US weather data publicly available.
 \item Created a financial forecasting tool to determine youngest age possible to reach financial independence.
+\item Built an email server from scratch using: AWS EC2, Red Hat, and iRedMail.
+
 \end{tightemize}
 \sectionsep
  
