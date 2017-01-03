@@ -124,9 +124,8 @@ SQL \textbullet{}   SSRS \textbullet{} SSAS (Tabular) \\
 Spotfire \textbullet{} SQL Server \textbullet{} Oracle \\
 Python \textbullet{} Jupyter \textbullet{} Pandas \\
 \location{Competent}
-HTML \& CSS \textbullet{} VBA \textbullet{} Java \\
-\location{Familiar}
-R \textbullet{} SAS \textbullet{} JavaScript \\
+R \textbullet{} SAS \textbullet{} VBA \\
+%\location{Familiar}
  
 \section{Ongoing Education}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
@@ -162,6 +161,8 @@ Hacker by nature, analytically minded by trade. Solving complex problems with el
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 
+\item Built a gradient boosting regression model for accurately predicting the likelihood of ESP well failures.
+\item Built a logistic regression model for predicting the likelihood of IT tickets breaching their SLAs. The model is 87\% accurate. 
 \item Developed a Monte Carlo simulation to calculate the optimal number of rigs in a field needed. This simulation was ran in every domestic field and a cost savings of over \$500,000 dollars was realized.
 \item Introduced SSAS cubes to Oxy by designing and building cubes centered around operational and well servicing data. Data retrieval and query times reduced thousandfold.
 \item Developed and deployed over 350 SSRS and Spotfire reports to production over the course of 2 years.
