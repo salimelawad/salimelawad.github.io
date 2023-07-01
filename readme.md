@@ -59,12 +59,12 @@ Computer Science Department – Houston, TX
 
 ## EDUCATION	
 ### Computer Science, BS - University of Houston 
-May 2015 – May 2017
-Graduated with summa cum laude (3.95/4 GPA)
+- May 2015 – May 2017
+- Graduated with summa cum laude (3.95/4 GPA)
 
 ## AWARDS	
-University of Houston Computer Science Department Valedictorian (May 2017)
-University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)
+- University of Houston Computer Science Department Valedictorian (May 2017)
+- University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)
 
 ## SKILLS	
 Programing Languages: Python, Scala, Spark (Python and Scala), R
