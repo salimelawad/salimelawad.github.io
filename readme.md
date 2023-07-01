@@ -1,5 +1,5 @@
 
-# CV
+# CURRICULUM VITAE
 
 ## EXPERIENCE
 #### Lead Data Engineer
