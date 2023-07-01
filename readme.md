@@ -68,23 +68,23 @@
 
 ## Classes, Trainings, and MOOCs
 - DSE200x: Python for Data ScienceDSE200x: Python for Data Science
-  - edX | Aug 2018
+  ###### edX | Aug 2018
 - Google Cloud Platform Big Data and Machine Learning Fundamentals
-  - Coursera | Mar 2019
-- Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform 
-    - Coursera | Apr 2019
+  ###### Coursera | Mar 2019
+- Leveraging Unstructured Data with Cloud Dataproc on Google Cloud Platform
+  ###### Coursera | Apr 2019
 - Introduction to Cloud Computing
-  - A Cloud Guru | May 2019
+  ###### A Cloud Guru | May 2019
 - Introduction to Google Cloud Platform
-  - A Cloud Guru | Jun 2020
+  ###### A Cloud Guru | Jun 2020
 - Google Cloud Professional Data Engineer
-  - Udemy | Jan 2022
+  ###### Udemy | Jan 2022
 - Modernizing Data Lakes and Data Warehouses with GCP
-  - Pluralsight | Mar 2022
+  ###### Pluralsight | Mar 2022
 - Google Cloud Platform Big Data and Machine Learning Fundamentals
-  - PluralSight | Mar 2022
+  ###### PluralSight | Mar 2022
 - Building bath Data Pipelines on GCP
-  - Pluralsight | Mar 2022
+  ###### Pluralsight | Mar 2022
 
 ## AWARDS	
 - University of Houston Computer Science Department Valedictorian (May 2017)
