@@ -25,7 +25,7 @@ Enterprise Products Partners (Contract) – Houston, TX
 		
 
 #### Software Data Engineer
-Apr  2017 – Jan 2019
+Apr 2017 – Jan 2019
 Sanchez Oil and Gas – Houston, TX
 
 - Set up Airflow using PostgreSQL and Celery as our workflow scheduler. Defined directed acyclical graphs (DAGs) for many of our workflows.
@@ -56,15 +56,15 @@ Computer Science Department – Houston, TX
 - Researched classification of mixed-language usage by Hispanic populations in social media.
 - Collected large amount of mixed-language data from various online sources using APIs and web-crawlers.
 - Analyzed, tokenized, and classified large amounts of collected data.
-		 		                                                           
+
 ## EDUCATION	
 ### Computer Science, BS - University of Houston 
 May 2015 – May 2017
 Graduated with summa cum laude (3.95/4 GPA)
-               
+
 ## AWARDS	
 University of Houston Computer Science Department Valedictorian (May 2017)
-University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)                                                                       
+University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)
 
 ## SKILLS	
 Programing Languages: Python, Scala, Spark (Python and Scala), R
