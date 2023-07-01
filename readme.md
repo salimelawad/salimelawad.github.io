@@ -3,8 +3,7 @@
 
 ## EXPERIENCE
 #### Lead Data Engineer
-Oct 2022 - Present
-Enterprise Products Partners – Houston, TX
+###### Oct 2022 - Present Enterprise Products Partners – Houston, TX
 
 - Lead role in developing quant machine learning framework used by the data scientists to explore, train, and deploy their trading models.
 - Design proper data pipelines and leverage correct data standards and technologies that reduce complexity, minimize failure points, and ensure scalability.
@@ -12,8 +11,7 @@ Enterprise Products Partners – Houston, TX
 - Automated data processing tasks to increase efficiency and accuracy of data.
 
 #### Data Engineer
-Feb 2019 – Oct 2022
-Enterprise Products Partners (Contract) – Houston, TX
+###### Feb 2019 – Oct 2022 Enterprise Products Partners (Contract) – Houston, TX
 
 - Develop and maintain applications to average and interpolate real-time temperature data from sensors in the braised aluminums heat exchangers. This data is then fed into multiple ETL pipelines used for data modeling, ad-hoc analysis, data historians, and business intelligence dashboards. 
 - Work with the Data Science team to productionize data wrangling code in Python and operationalize Keras multilayer perceptron neural networks. 
@@ -25,8 +23,7 @@ Enterprise Products Partners (Contract) – Houston, TX
 		
 
 #### Software Data Engineer
-Apr 2017 – Jan 2019
-Sanchez Oil and Gas – Houston, TX
+###### Apr 2017 – Jan 2019 Sanchez Oil and Gas – Houston, TX
 
 - Set up Airflow using PostgreSQL and Celery as our workflow scheduler. Defined directed acyclical graphs (DAGs) for many of our workflows.
 - Built automation tool to ingest flowback emails in spreadsheet format which were downloaded, parsed, and written to their corresponding SQL tables. 
@@ -35,23 +32,20 @@ Sanchez Oil and Gas – Houston, TX
 - Built batch ETL services that extracted public well data and Sanchez field data, transforming and storing the data for easy access by the Data Science and Operation teams within the company. 
 
 #### Teaching Assistant
-Jan 2016 – Jan 2017
-Computer Science Department - Houston, TX
+###### Jan 2016 – Jan 2017 Computer Science Department - Houston, TX
 
 - Taught Introduction to Computer Science and Computer Science and Programming.
 - Used problem solving and critical thinking skills to create assignments, grade homework and exams.
 - Strengthened communication and listening skills through teaching 25 students in weekly labs and holding office hours to assist students.
 
 #### Software Engineer Intern
-May 2016 – Aug 2016
-NetIQ – Houston, TX
+###### May 2016 – Aug 2016 NetIQ – Houston, TX
 
 - Generated reports with JasperSoft for the Access Review Database using scrum methodology.
 - Collaborated with Software, Data, and DevOps Engineers on developing automated tools that reduced the time spent updating reports manually. 
 
 #### Research Assistant
-Jun 2016 – Sep 2016
-Computer Science Department – Houston, TX
+###### Jun 2016 – Sep 2016 Computer Science Department – Houston, TX
 
 - Researched classification of mixed-language usage by Hispanic populations in social media.
 - Collected large amount of mixed-language data from various online sources using APIs and web-crawlers.
