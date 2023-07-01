@@ -56,6 +56,16 @@
 ###### May 2015 – May 2017
 - Graduated with summa cum laude (3.95/4 GPA)
 
+## Certifications
+
+- [Google Cloud - Professional Data Engineer](https://www.credential.net/58b39e0d-1585-417a-8907-011a96726489)
+  - `Credential ID: 58b39e0d-1585-417a-8907-011a96726489`
+  - Jul 2022- Jul 2024
+
+- [Astronomer Certification for Apache Airflow Fundamentals](https://www.credly.com/badges/8214dbae-0057-475b-9493-77a4c9c950eb?source=linked_in_profile)
+  - `Credential ID: 8214dbae-0057-475b-9493-77a4c9c950eb`
+  - Feb 2022
+
 ## AWARDS	
 - University of Houston Computer Science Department Valedictorian (May 2017)
 - University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)
