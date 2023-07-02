@@ -52,11 +52,11 @@
 - Analyzed, tokenized, and classified large amounts of collected data.
 
 ## EDUCATION	
-### Computer Science, BS - University of Houston 
+#### Computer Science, BS - University of Houston 
 ###### May 2015 – May 2017
 - Graduated with summa cum laude (3.95/4 GPA)
 
-## Certifications
+#### Certifications
 
 - [Google Cloud - Professional Data Engineer](https://www.credential.net/58b39e0d-1585-417a-8907-011a96726489)
   ###### `Credential ID: 58b39e0d-1585-417a-8907-011a96726489`
@@ -66,7 +66,7 @@
   ###### `Credential ID: 8214dbae-0057-475b-9493-77a4c9c950eb`
   ###### Feb 2022
 
-## Classes, Trainings, and MOOCs
+#### Classes, Trainings, and MOOCs
 - DSE200x: Python for Data ScienceDSE200x: Python for Data Science
   ###### edX | Aug 2018
 - Google Cloud Platform Big Data and Machine Learning Fundamentals
