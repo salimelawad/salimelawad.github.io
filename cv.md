@@ -53,6 +53,11 @@
 - Collected large amount of mixed-language data from various online sources using APIs and web-crawlers.
 - Analyzed, tokenized, and classified large amounts of collected data.
 
+#### COO and Co-Founder
+###### Jan 2001 – Aug 2011 | Jugueteria Corotos C.A. | El Tigre, Venezuela
+- Founded and ran retail toystore with 10 employees and $1M in annual revenue.
+- Managed all aspects of the business including accounting, inventory, and sales.
+
 ## EDUCATION	
 #### Computer Science, BS - University of Houston 
 ###### May 2015 – May 2017
