@@ -3,6 +3,10 @@
 
 # CURRICULUM VITAE
 
+## Bio
+
+Highly skilled and dedicated Lead Data Engineer with a special focus on Python, machine learning, and data engineering. Possessing over five years of extensive experience in designing efficient data pipelines, implementing data flows and transformations, productionizing machine learning models, and performing data wrangling tasks utilizing Python. Takes advantage of key technologies such as Docker, Kubernetes, Airflow, and Kafka, with proficiency in multiple databases. Demonstrates a solid track of record in automating data processing tasks, ensuring the integrity of data pipelines, and leading the development of machine learning frameworks. Known for delivering timely results through effective project management and problem-solving skills. An effective communicator, fluent in both English and Spanish. Adept at leading projects to successful completion and passionate about leveraging skills in Python to contribute to the growth and success of data-driven projects.
+
 ## EXPERIENCE
 #### Lead Data Engineer
 ###### Oct 2022 - Present | Enterprise Products Partners | Houston, TX
