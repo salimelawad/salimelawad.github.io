@@ -5,3 +5,8 @@ Salim ElAwad
 
 ### [About Me](aboutme.md)
 
+### [Projects](projects.md)
+
+
+### [Contact Me](contact.md)
+
