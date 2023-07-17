@@ -71,12 +71,11 @@ Highly skilled and dedicated Lead Data Engineer with a special focus on Python, 
 #### Certifications
 
 - [Google Cloud - Professional Data Engineer](https://www.credential.net/58b39e0d-1585-417a-8907-011a96726489)
-  ###### `Credential ID: 58b39e0d-1585-417a-8907-011a96726489`
-  ###### Jul 2022- Jul 2024
+  ###### `Jul 2022 - Jul 2024 | Credential ID: 58b39e0d-1585-417a-8907-011a96726489`
 
 - [Astronomer Certification for Apache Airflow Fundamentals](https://www.credly.com/badges/8214dbae-0057-475b-9493-77a4c9c950eb?source=linked_in_profile)
-  ###### `Credential ID: 8214dbae-0057-475b-9493-77a4c9c950eb`
-  ###### Feb 2022
+  ###### `Feb 2022 | Credential ID: 8214dbae-0057-475b-9493-77a4c9c950eb`
+
 
 #### Classes, Trainings, and MOOCs
 - DSE200x: Python for Data ScienceDSE200x: Python for Data Science
@@ -95,7 +94,7 @@ Highly skilled and dedicated Lead Data Engineer with a special focus on Python, 
   ###### Pluralsight | Mar 2022
 - Google Cloud Platform Big Data and Machine Learning Fundamentals
   ###### PluralSight | Mar 2022
-- Building bath Data Pipelines on GCP
+- Building Batch Data Pipelines on GCP
   ###### Pluralsight | Mar 2022
 
 ## AWARDS	
