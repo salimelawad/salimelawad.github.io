@@ -35,7 +35,8 @@ Highly skilled and dedicated Lead Data Engineer with a special focus on Python, 
 - Built automation tool to ingest flowback emails in spreadsheet format which were downloaded, parsed, and written to their corresponding SQL tables. 
 - Created and dockerized a software solution to ingest data from SCADA systems. This data was sent to a distributed JSON database (MapR-DB) and produced to a real-time topic that was consumed by other applications for real-time analysis.
 - Developed a real-time operation alert system by consuming data from multiple topics and writing to tables in a time-series database (InfluxDB). This data was read by microservices that would generate alerts if predefined conditions were met.
-- Built batch ETL services that extracted public well data and Sanchez field data, transforming and storing the data for easy access by the Data Science and Operation teams within the company. 
+- Built batch ETL services that extracted public well data and Sanchez field data, transforming and storing the data for easy access by the Data Science and Operation teams within the company.
+- Scripted solution to extract data out of PDFs using OCR libraries in Python. 
 
 #### Teaching Assistant
 ###### Jan 2016 – Jan 2017 | Computer Science Department | Houston, TX
@@ -102,7 +103,7 @@ Highly skilled and dedicated Lead Data Engineer with a special focus on Python, 
 - University of Houston Dean’s List (4) (Fall 2015 – Spring 2017)
 
 ## SKILLS	
-Programing Languages: Python, Scala, Spark (Python and Scala), R
+Programing Languages: Python, Spark 
 Operating Systems: Linux (CentOS, Ubuntu, Raspbian), Unix (MacOS), Windows
 ETL Experience: Kafka, Airflow, Docker, Kubernetes, Apache Drill, GitLab CI/CD, Apache Sqoop, Streamsets
 Databases: InfluxDB, PostgreSQL, MongoDB, MapR-DB (similar to Hbase), Microsoft SQL Server, Sqlite3
