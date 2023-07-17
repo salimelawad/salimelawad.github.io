@@ -10,3 +10,4 @@ Salim ElAwad
 
 ### [Contact Me](contact.md)
 
+### [PDF Resume](Resume_07-03-2023.pdf)
