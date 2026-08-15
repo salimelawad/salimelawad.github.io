@@ -1,0 +1,33 @@
+name: Render resume
+
+on:
+  push:
+    paths:
+      - resume.tex
+      - mise.toml
+      - .github/workflows/resume.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: jdx/mise-action@v2
+
+      - name: Render PDF
+        run: |
+          mise trust
+          mise run pdf
+
+      - name: Commit resume.pdf if it changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add resume.pdf
+          git diff --staged --quiet || git commit -m "Render resume.pdf from resume.tex"
+          git push

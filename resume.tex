@@ -1,0 +1,215 @@
+% Salim El Awad -- resume
+% Render:  mise run pdf     (or: tectonic resume.tex)
+
+\documentclass[10pt,letterpaper]{article}
+
+\usepackage[margin=0.65in]{geometry}
+\usepackage{newtxtext,newtxmath}
+\usepackage[T1]{fontenc}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\definecolor{linknavy}{HTML}{1F3864}
+\usepackage[colorlinks=true,urlcolor=linknavy,linkcolor=linknavy]{hyperref}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+
+% Section headings: flush-left uppercase, plain weight, matching the 2023 layout.
+\titleformat{\section}{\normalsize\normalfont}{}{0pt}{\MakeUppercase}
+\titlespacing*{\section}{0pt}{7pt}{2pt}
+
+\newlength{\entryindent}
+\setlength{\entryindent}{0.25in}
+
+% \entry{title}{company -- location}{dates}
+\newcommand{\entry}[3]{%
+  \vspace{3.5pt}%
+  \hspace*{\entryindent}%
+  \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
+    \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+      #1 & #3
+    \end{tabular*}\\
+    #2
+  \end{minipage}%
+  \par
+}
+
+% \plainrow{left}{right} -- indented line with a right-aligned date
+\newcommand{\plainrow}[2]{%
+  \hspace*{\entryindent}%
+  \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
+    \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+      #1 & #2
+    \end{tabular*}
+  \end{minipage}%
+  \par
+}
+
+% \skillrow{category}{items}
+\newcommand{\skillrow}[2]{%
+  \hspace*{\entryindent}%
+  \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
+    #1: #2
+  \end{minipage}%
+  \par\vspace{1pt}
+}
+
+\newenvironment{bullets}
+  {\begin{itemize}[leftmargin=0.6in,labelsep=0.09in,label=\textbullet,
+                   topsep=1pt,itemsep=0pt,parsep=0pt]}
+  {\end{itemize}}
+
+\begin{document}
+
+%% ---------------------------------------------------------------- header
+\begin{center}
+  {\LARGE Salim El Awad}
+\end{center}
+\vspace{3pt}
+
+\begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
+  \href{mailto:elawadsalim@gmail.com}{elawadsalim@gmail.com} & (832)-547-1787
+\end{tabular*}
+\vspace{2pt}
+\hrule
+
+%% ------------------------------------------------------------ experience
+\section*{Experience}
+
+% TODO: add accomplishment bullets for the current role. Intentionally left
+% blank -- LinkedIn lists no bullets for this position yet.
+\entry{Technology Leader, Data Engineer}
+      {Enterprise Products Partners -- Houston, TX}
+      {Apr 2026 -- Present}
+
+\entry{Lead Machine Learning Engineer}
+      {Enterprise Products Partners -- Houston, TX}
+      {Oct 2022 -- Apr 2026}
+\begin{bullets}
+  \item Lead role in developing quant machine learning framework used by the data scientists to explore, train, and deploy their trading models.
+  \item Design proper data pipelines and leverage correct data standards and technologies that reduce complexity, minimize failure points, and ensure scalability.
+  \item Maintained and monitored data quality and integrity of the data pipelines.
+  \item Automated data processing tasks to increase efficiency and accuracy of data.
+\end{bullets}
+
+\entry{Course Instructor -- AI and ML: Business Applications}
+      {Great Learning / UT Austin, McCombs School of Business -- Austin, TX}
+      {Jan 2024 -- Apr 2026}
+\begin{bullets}
+  \item Provide online instruction in foundational Python programming, advanced machine learning techniques, neural networks, computer vision, and natural language processing.
+  \item Utilize Jupyter Notebooks for live coding demonstrations to illustrate machine learning model development, neural network optimization, and data visualization.
+  \item Mentor students in applying supervised and unsupervised learning algorithms, and in using transfer learning and attention mechanisms for complex AI projects.
+  \item Oversee the development of professional portfolios that demonstrate proficiency in statistical learning, model tuning, and prompt engineering with large language models.
+\end{bullets}
+
+\entry{Data Engineer}
+      {Enterprise Products Partners (Contract) -- Houston, TX}
+      {Feb 2019 -- Oct 2022}
+\begin{bullets}
+  \item Develop and maintain applications to average and interpolate real-time temperature data from sensors in the braised aluminums heat exchangers. This data is then fed into multiple ETL pipelines used for data modeling, ad-hoc analysis, data historians, and business intelligence dashboards.
+  \item Work with the Data Science team to productionize data wrangling code in Python and operationalize Keras multilayer perceptron neural networks.
+  \item Implement data flows and data transformations connecting OSI Pi, MapR, InfluxDB, and PowerBI using Python, Scala, Spark, Drill, StreamSets, Kafka, and SQL.
+  \item Schedule all ETL jobs and near-time applications using a containerized Airflow solution. Define directed acyclical graphs (DAGs) for most of our workflows.
+  \item Develop data-intensive applications with API's and streaming data pipelines.
+  \item Assist data analysts and data scientists with query optimization, performance tuning, and data processing.
+  \item Document and maintain source-to-target mappings and data lineage.
+\end{bullets}
+
+\entry{Software Data Engineer}
+      {Sanchez Oil and Gas -- Houston, TX}
+      {Apr 2017 -- Feb 2019}
+\begin{bullets}
+  \item Set up Airflow using PostgreSQL and Celery as our workflow scheduler. Defined directed acyclical graphs (DAGs) for many of our workflows.
+  \item Built automation tool to ingest flowback emails in spreadsheet format which were downloaded, parsed, and written to their corresponding SQL tables.
+  \item Created and dockerized a software solution to ingest data from SCADA systems. This data was sent to a distributed JSON database (MapR-DB) and produced to a real-time topic that was consumed by other applications for real-time analysis.
+  \item Developed a real-time operation alert system by consuming data from multiple topics and writing to tables in a time-series database (InfluxDB). This data was read by microservices that would generate alerts if predefined conditions were met.
+  \item Built batch ETL services that extracted public well data and Sanchez field data, transforming and storing the data for easy access by the Data Science and Operation teams within the company.
+  \item Scripted solution to extract data out of PDFs using OCR libraries in Python.
+\end{bullets}
+
+\entry{Teaching Assistant}
+      {University of Houston, Computer Science Department -- Houston, TX}
+      {Jan 2016 -- Jan 2017}
+\begin{bullets}
+  \item Taught Introduction to Computer Science and Computer Science and Programming.
+  \item Used problem solving and critical thinking skills to create assignments, grade homework and exams.
+  \item Strengthened communication and listening skills through teaching 25 students in weekly labs and holding office hours to assist students.
+\end{bullets}
+
+\entry{Research Assistant}
+      {University of Houston, Computer Science Department -- Houston, TX}
+      {Jun 2016 -- Sep 2016}
+\begin{bullets}
+  \item Researched classification of mixed-language usage by Hispanic populations in social media.
+  \item Collected large amount of mixed-language data from various online sources using APIs and web-crawlers.
+  \item Analyzed, tokenized, and classified large amounts of collected data.
+\end{bullets}
+
+\entry{Software Engineer Intern}
+      {NetIQ -- Houston, TX}
+      {May 2016 -- Aug 2016}
+\begin{bullets}
+  \item Generated reports with JasperSoft for the Access Review Database using scrum methodology.
+  \item Collaborated with Software, Data, and DevOps Engineers on developing automated tools that reduced the time spent updating reports manually.
+\end{bullets}
+
+%% -------------------------------------------------------------- projects
+\section*{Projects}
+
+\entry{Suunly\texttrademark{} Time}
+      {\href{https://suunly.com}{suunly.com}}
+      {}
+\begin{bullets}
+  \item Solar time system in which noon occurs when the sun is directly overhead, computed from the viewer's exact latitude and longitude rather than fixed time zones.
+  \item Applies the equation of time to correct for Earth's elliptical orbit; each degree of longitude shifts the clock by four minutes, and no daylight saving adjustment is needed.
+\end{bullets}
+
+\entry{Housing Price Analysis App}
+      {\href{https://housingapp.streamlit.app/}{housingapp.streamlit.app}}
+      {}
+\begin{bullets}
+  \item Interactive Streamlit and Python application that tracks U.S. housing affordability using the inflation-adjusted Case-Shiller Home Price Index across major cities.
+  \item Models the real cost of ownership against 30-year and 15-year fixed mortgage rates; findings published as \href{https://medium.com/@salimelawad/priced-out-why-homes-are-more-expensive-than-ever-before-7ed72b0fd357}{``Priced Out: Why Homes Are More Expensive Than Ever Before.''}
+\end{bullets}
+
+%% ------------------------------------------------------------- education
+\section*{Education}
+
+\entry{Computer Science, B.S.}
+      {University of Houston -- Houston, TX}
+      {May 2015 -- May 2017}
+\begin{bullets}
+  \item Graduated summa cum laude (3.95/4.00 GPA).
+\end{bullets}
+
+%% -------------------------------------------------------- certifications
+\section*{Certifications}
+\vspace{3pt}
+
+% Cert names link to the credential they were verified against.
+% Ordered by date received, most recent first.
+\plainrow{\href{https://www.credly.com/badges/41d9954e-247b-43fd-8bdc-08b0860dc1c8}{Astronomer Certification for Apache Airflow 3 Fundamentals}}{Sep 2025}
+\plainrow{\href{https://www.credential.net/58b39e0d-1585-417a-8907-011a96726489}{Google Cloud -- Professional Data Engineer}}{Jul 2022 -- Jul 2024}
+\plainrow{\href{https://www.credly.com/badges/8214dbae-0057-475b-9493-77a4c9c950eb}{Astronomer Certification for Apache Airflow 2 Fundamentals}}{Feb 2022}
+
+%% ---------------------------------------------------------------- awards
+\section*{Awards}
+\vspace{3pt}
+
+\plainrow{University of Houston Computer Science Department Valedictorian}{May 2017}
+\plainrow{University of Houston Dean's List (4)}{Fall 2015 -- Spring 2017}
+
+%% ---------------------------------------------------------------- skills
+\section*{Skills}
+\vspace{3pt}
+
+\skillrow{Programming Languages}{Python, Scala, Spark (PySpark), SQL, R}
+\skillrow{Cloud Platforms}{Google Cloud Platform (GCP), AWS}
+\skillrow{Machine Learning \& AI}{scikit-learn, Keras, TensorFlow, neural networks, computer vision, NLP, large language models}
+\skillrow{Data \& ETL}{Kafka, Airflow, Docker, Kubernetes, Apache Drill, GitLab CI/CD, Apache Sqoop, StreamSets}
+\skillrow{Databases}{InfluxDB, PostgreSQL, MongoDB, MapR-DB (similar to HBase), Microsoft SQL Server, Sqlite3}
+\skillrow{Operating Systems}{Linux (CentOS, Ubuntu, Raspbian), Unix (macOS), Windows}
+\skillrow{Languages}{Bilingual in English and Spanish}
+
+\end{document}

@@ -1,0 +1,10 @@
+# Tectonic is a single self-contained LaTeX binary with prebuilt releases for
+# macOS, Linux/WSL, and Windows, so `mise run pdf` works the same on all three.
+# The tag is spelled "tectonic@0.17.0" because upstream prefixes its git tags.
+
+[tools]
+"github:tectonic-typesetting/tectonic" = "tectonic@0.17.0"
+
+[tasks.pdf]
+description = "Render resume.tex to resume.pdf"
+run = "tectonic resume.tex"
