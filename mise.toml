@@ -7,4 +7,8 @@
 
 [tasks.pdf]
 description = "Render resume.tex to resume.pdf"
+# Pin the PDF's internal creation timestamp so an unchanged resume.tex always
+# renders to a byte-identical resume.pdf. Without this, every render produces a
+# new binary and shows up as a spurious git diff.
+env = { SOURCE_DATE_EPOCH = "1786752000" }
 run = "tectonic resume.tex"
