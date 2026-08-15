@@ -15,8 +15,9 @@
 \pagestyle{empty}
 \setlength{\parindent}{0pt}
 
-% Section headings: flush-left uppercase, plain weight, matching the 2023 layout.
-\titleformat{\section}{\normalsize\normalfont}{}{0pt}{\MakeUppercase}
+% Typography follows the 2023 resume: bold section headings, bold job titles
+% and dates, italic company/location lines, regular body text.
+\titleformat{\section}{\normalsize\bfseries}{}{0pt}{\MakeUppercase}
 \titlespacing*{\section}{0pt}{7pt}{2pt}
 
 \newlength{\entryindent}
@@ -28,9 +29,9 @@
   \hspace*{\entryindent}%
   \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
     \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
-      #1 & #3
+      \textbf{#1} & \textbf{#3}
     \end{tabular*}\\
-    #2
+    \textit{#2}
   \end{minipage}%
   \par
 }
@@ -40,7 +41,7 @@
   \hspace*{\entryindent}%
   \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
     \begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}r@{}}
-      #1 & #2
+      #1 & \textbf{#2}
     \end{tabular*}
   \end{minipage}%
   \par
@@ -50,7 +51,7 @@
 \newcommand{\skillrow}[2]{%
   \hspace*{\entryindent}%
   \begin{minipage}{\dimexpr\linewidth-\entryindent\relax}
-    #1: #2
+    \textbf{#1:} #2
   \end{minipage}%
   \par\vspace{1pt}
 }
@@ -68,11 +69,13 @@
 \end{center}
 \vspace{3pt}
 
-\begin{tabular*}{\linewidth}{@{}l@{\extracolsep{\fill}}c@{\extracolsep{\fill}}r@{}}
-  \href{mailto:elawadsalim@gmail.com}{elawadsalim@gmail.com}
-  & \href{https://www.linkedin.com/in/salimelawad}{linkedin.com/in/salimelawad}
-  & (832)-547-1787
-\end{tabular*}
+\noindent\makebox[\linewidth]{%
+  \makebox[0pt][l]{\href{mailto:elawadsalim@gmail.com}{elawadsalim@gmail.com}}%
+  \hfill
+  \href{https://www.linkedin.com/in/salimelawad}{linkedin.com/in/salimelawad}%
+  \hfill
+  \makebox[0pt][r]{(832)-547-1787}%
+}
 \vspace{2pt}
 \hrule
 
